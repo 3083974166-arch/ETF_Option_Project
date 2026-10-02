@@ -88,4 +88,3 @@ def implied_vol(value, S, K, T, r, q, cp="C", method="brent", tol=1e-10):
         trial = x-fx/v if v > 1e-12 else float("nan")
         x = trial if low < trial < high else (low+high)/2
     raise RuntimeError("Newton did not converge")
-

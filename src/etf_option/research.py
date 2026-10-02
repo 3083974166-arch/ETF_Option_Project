@@ -79,4 +79,3 @@ def forecast_study(frame, split_date, horizon=20):
             "oos_mse": mse, "past_rv_baseline_mse": baseline,
             "oos_r2_vs_past_rv": 1-mse/baseline if baseline > 0 else None,
             "horizon_note": "30 calendar-day IV vs 20 trading-day RV: approximate horizon match"}, detail
-

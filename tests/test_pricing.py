@@ -43,4 +43,3 @@ def test_boundaries():
         price(-1,100,1,.02,.2,.01)
     with pytest.raises(ValueError):
         greeks(100,100,0,.02,.2,.01)
-

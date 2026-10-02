@@ -120,4 +120,3 @@ def enrich(panel, forwards):
             rec["reason"] = str(exc)
             rejected.append(rec)
     return pd.DataFrame(rows), pd.DataFrame(rejected)
-

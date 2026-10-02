@@ -36,4 +36,3 @@ def test_full_pipeline_test_only(raw, tmp_path, monkeypatch):
     assert len(robustness) == 9
     assert robustness.status.eq("ok").all()
     assert (out/"performance.json").exists()
-

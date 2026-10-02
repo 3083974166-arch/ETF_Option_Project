@@ -119,4 +119,3 @@ python run_pipeline.py run --input data/raw/ready --out results/proxy_run_01 --s
 先读 `docs/宝宝教程.md` 第1–3章 → 定价 notebook 和定价测试 → 数据规范与清洗 → 平价远期和IV → RV及时序测试 → 回测账本 → 稳健性 → 研究报告、简历、面试问答。练习必须能自己修改和解释，不能只记结论。
 
 来源链接和方法参考见 `docs/参考来源.md`；完整交付清单见 `docs/文件清单.md`。
-

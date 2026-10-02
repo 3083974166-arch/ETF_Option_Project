@@ -39,4 +39,3 @@ def test_undefined_statistics_serialize_as_null(tmp_path):
     data.save_json(tmp_path/"stats.json", {"sharpe": float("nan"), "values": [float("inf"), .2]})
     result = json.loads((tmp_path/"stats.json").read_text(encoding="utf-8"))
     assert result == {"sharpe": None, "values": [None, .2]}
-

@@ -12,4 +12,3 @@ def raw():
 @pytest.fixture(scope="session")
 def analyzed(raw):
     return analyze(raw, Filters())
-

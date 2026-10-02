@@ -119,4 +119,3 @@ def pipeline(input_dir, output_dir, split_date, config=Config(), filters=Filters
         raise
     save_json(out/"manifest.json", manifest)
     return manifest
-

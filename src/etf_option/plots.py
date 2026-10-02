@@ -60,4 +60,3 @@ def make_plots(panel, term, features, ledger, outdir, label):
             axes[1].plot(ledger.date, values, label=col)
         axes[1].legend()
         save(fig, "05_pnl_attribution.png")
-

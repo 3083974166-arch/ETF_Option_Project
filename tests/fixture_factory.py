@@ -36,4 +36,3 @@ def market_fixture(n=100, seed=71):
                     quotes.append(dict(date=date, contract_id=cid, close=value, bid=value-half, ask=value+half,
                                        volume=200, open_interest=1000, source="SYNTHETIC_TEST_ONLY", is_synthetic=True))
     return dict(options=pd.DataFrame(quotes), contracts=pd.DataFrame(contracts), underlying=u, rates=r)
-

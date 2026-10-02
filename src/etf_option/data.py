@@ -169,4 +169,3 @@ if __name__ == "__main__":
     if isinstance(frame, list):
         frame = pd.DataFrame({"contract_month": frame})
     frame.to_csv(output, index=False, encoding="utf-8-sig")
-

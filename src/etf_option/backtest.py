@@ -171,4 +171,3 @@ def run(panel, feature_frame, config=Config(), start=None, end=None):
     if not np.allclose(changes, ledger.net_pnl, atol=1e-7):
         raise AssertionError("P&L attribution does not reconcile")
     return ledger, metrics(ledger, c.capital)
-

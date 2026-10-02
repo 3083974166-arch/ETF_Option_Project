@@ -102,4 +102,3 @@ def test_official_contract_comparison(raw, tmp_path):
     o.to_csv(tmp_path/"official.csv", index=False)
     result = official_validate(tmp_path/"contracts.csv", tmp_path/"official.csv", tmp_path/"audit.csv")
     assert result.mismatches.tolist() == ["", "multiplier", ""]
-

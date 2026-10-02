@@ -121,4 +121,3 @@ def test_forced_exit_before_expiry():
     mask = (expiry-ledger.date).dt.days <= 14
     assert mask.any()
     assert (ledger.loc[mask, "option_contracts"] == 0).all()
-

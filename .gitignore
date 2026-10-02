@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/ready/*.csv
+data/raw/download/*.csv
+results/real_run*/
+/ETF_Option_Project/
+

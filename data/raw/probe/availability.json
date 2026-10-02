@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-09-30T11:44:32.657906+00:00",
+  "real_market_conclusions": false,
+  "checks": [
+    {
+      "name": "sina_option_history",
+      "function": "option_sse_daily_sina",
+      "parameters": {
+        "symbol": "10003889"
+      },
+      "status": "success",
+      "rows": 23,
+      "columns": [
+        "日期",
+        "开盘",
+        "最高",
+        "最低",
+        "收盘",
+        "成交量"
+      ],
+      "sha256": "262077d40d8c773b8d6536ed34cb3adfa756204a12aed74cd966fcf18c8a55c1"
+    },
+    {
+      "name": "sina_current_months",
+      "function": "option_sse_list_sina",
+      "parameters": {
+        "symbol": "50ETF",
+        "exchange": "null"
+      },
+      "status": "success",
+      "rows": 4,
+      "columns": [
+        "contract_month"
+      ],
+      "sha256": "9ed626fc5e06ef1635ed84c9ec4bcfc7437098e31dafce314490004d976aac60"
+    },
+    {
+      "name": "etf_daily",
+      "function": "fund_etf_hist_em",
+      "parameters": {
+        "symbol": "510050",
+        "period": "daily",
+        "start_date": "20250101",
+        "end_date": "20250930",
+        "adjust": ""
+      },
+      "status": "success",
+      "rows": 183,
+      "columns": [
+        "日期",
+        "开盘",
+        "收盘",
+        "最高",
+        "最低",
+        "成交量",
+        "成交额",
+        "振幅",
+        "涨跌幅",
+        "涨跌额",
+        "换手率"
+      ],
+      "sha256": "98e4f681392631e688a4aeba5775ab775b9650a03fccea75153e6dda4d771176"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Python 3.12.10
+Platform: Windows 11
+
+Verified direct dependencies (not a transitive lock):
+numpy==2.5.2
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.11.1
+statsmodels==0.15.0
+requests==2.34.2
+akshare==1.19.1
+pytest==9.1.1
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+

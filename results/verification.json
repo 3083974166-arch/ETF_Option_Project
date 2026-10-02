@@ -1,0 +1,13 @@
+{
+  "verified_at_utc": "2026-10-01T02:19:00.437720+00:00",
+  "pytest_tests": 50,
+  "failures": 0,
+  "notebooks": "2 notebooks: schema validation and code cells executed in order",
+  "cli": "--help and public probe executed",
+  "dependencies": "pip check passed",
+  "figures": "5 synthetic test figures generated; 3D surface and P&L manually inspected",
+  "robustness": "9 scenarios exercised in integration test",
+  "real_market_performance_claims": false,
+  "complete_historical_option_chain": false,
+  "synthetic_results_shipped": false
+}
